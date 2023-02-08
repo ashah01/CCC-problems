@@ -13,5 +13,5 @@ for i in range(n-(k-1)):
                 segment.append(triangle[i + j][e + h])
         
         sum += max(segment)
-        print(segment)
-        print(max(segment))
+
+print(sum)
