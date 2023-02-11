@@ -18,5 +18,4 @@ for c in range(min(positions), max(positions)):
         total_seconds = tmp
         best_c = c
 
-print(best_c)
 print(total_seconds)

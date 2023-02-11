@@ -10,7 +10,6 @@ for i in range(k):
         for i in range(n):
             grid[command[1]][i] *= -1
     else:
-        assert command[0] == "C"
         for i in range(m):
             grid[i][command[1]] *= -1
 
