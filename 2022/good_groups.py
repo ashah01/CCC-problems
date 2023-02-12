@@ -15,7 +15,6 @@ for _ in range(int(input())):
     for i in group:
         # If student in must list is not in group, add a violation.
         # If student in must not list is in group, also add a violation.
-        import IPython; IPython.embed()
         violations += sum(1 for mi in must.get(i, []) if mi not in group) + \
             sum(1 for mni in must_not.get(i, []) if mni in group)
 
