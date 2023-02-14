@@ -51,4 +51,4 @@ for i in range(n-2):
             #     total_triplets += 1
 
 
-# TODO: Ensure triplets with duplicate values are false in validator (2022/good_triplets.py:5)
+# TODO: determine why some of the triplets aren't showing and why some excess are.
